@@ -1,5 +1,5 @@
 class testrepo {
-        if $environment == 'productuon' {
+        if $environment == 'production' {
                 notify { 'default-message' :
                         message => "This is the production environment"
                 }
